@@ -76,11 +76,11 @@
             , <&key_physical_attrs 105 100 1003  371       0    0    0>
             ;
     };
-
+ 
     kscan0: kscan_0 {
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
-
+        
         diode-direction = "col2row"; 
         row-gpios
             = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
