@@ -15,7 +15,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define Base        0
-#define NNav        1
+#define Nav        1
 #define Num         2
 #define Sym         3
 #define Media       4
@@ -78,8 +78,8 @@
             >;
         };
 
-        NNav {
-            label = "NNav";
+        Nav {
+            label = "Nav";
             bindings = <
         &trans        &trans        &trans     &trans          &trans    &kp INSERT      &trans          &trans        &trans           &trans
         &kp LEFT_WIN  &kp LEFT_ALT  &kp RCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
