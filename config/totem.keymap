@@ -13,7 +13,6 @@
 #include "keys_nb.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define Base        0
 #define NNav        1
@@ -136,7 +135,7 @@
             bindings = <
             &kp TAB           &kp NB_Q  &kp NUMBER_2  &kp NB_E      &kp NB_R     &trans  &trans  &trans  &trans  &trans
             &kp LEFT_SHIFT    &kp NB_A  &kp NB_W      &kp NB_D      &kp NB_F     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_CONTROL  &kp NB_Z  &kp S         &kp NB_C      &kp NB_V     &trans  &trans  &trans  &trans  &trans  &mmv MOVE_DOWN
+&kp ESCAPE  &kp LEFT_CONTROL  &kp NB_Z  &kp S         &kp NB_C      &kp NB_V     &trans  &trans  &trans  &trans  &trans  &studio_unlock
                                         &kp NB_X      &kp LEFT_ALT  &kp SPACE    &trans  &trans  &to 0
             >;
 
